@@ -1,5 +1,5 @@
 {
-  "name": "vue3-datepicker",
+  "name": "vue3-datepicker-next",
   "version": "1.0.2",
   "description": "A Datepicker Component For Vue3",
   "main": "./index.js",
@@ -10,7 +10,7 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "vite --host 0.0.0.0",
-    "prebuild": "npm run lint && npm run test && npm run clean",
+    "prebuild": "npm run test && npm run clean",
     "postbuild": "ls index.es.js index.js index.css index.d.ts scss/index.scss >> /dev/null && echo 'build success'",
     "build": "npm run build:lib-es & npm run build:lib-umd & npm run css && npm run type",
     "build:lib-es": "LIB_FORMAT=es vite build",
@@ -40,7 +40,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mengxiong10/vue-datepicker-next.git"
+    "url": "git+https://github.com/sitronik/vue3-datepicker-next.git"
   },
   "keywords": [
     "vue",
@@ -51,9 +51,9 @@
   "author": "xiemengxiong",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mengxiong10/vue-datepicker-next/issues"
+    "url": "https://github.com/sitronik/vue3-datepicker-next/issues"
   },
-  "homepage": "https://github.com/mengxiong10/vue-datepicker-next#readme",
+  "homepage": "https://github.com/sitronik/vue3-datepicker-next#readme",
   "lint-staged": {
     "**/*.{tsx,ts}": [
       "eslint --fix",

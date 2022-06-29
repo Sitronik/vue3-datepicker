@@ -1,12 +1,12 @@
-# vue3-datepicker
+# vue3-datepicker-next
 
-[中文版](https://github.com/sitronik/vue3-datepicker/blob/main/README.zh-CN.md)
+[中文版](https://github.com/sitronik/vue3-datepicker-next/blob/main/README.zh-CN.md)
 
 > A Datepicker Component For Vue3
 
-![tests](https://github.com/sitronik/vue3-datepicker/actions/workflows/tests.yml/badge.svg)
-<a href="https://www.npmjs.com/package/vue3-datepicker">
-<img src="https://img.shields.io/npm/v/vue3-datepicker.svg" alt="npm">
+![tests](https://github.com/sitronik/vue3-datepicker-next/actions/workflows/tests.yml/badge.svg)
+<a href="https://www.npmjs.com/package/vue3-datepicker-next">
+<img src="https://img.shields.io/npm/v/vue3-datepicker-next.svg" alt="npm">
 </a>
 <a href="LICENSE">
 <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT">
@@ -16,20 +16,20 @@
 
 <https://mengxiong10.github.io/vue-datepicker-next/index.html>
 
-![image](https://github.com/sitronik/vue3-datepicker/raw/main/screenshot/demo.png)
+![image](https://github.com/sitronik/vue3-datepicker-next/raw/main/screenshot/demo.png)
 
 ## Install
 
 ```bash
-$ npm install vue3-datepicker --save
+$ npm install vue3-datepicker-next --save
 ```
 
 ## Usage
 
 ```html
 <script>
-  import DatePicker from 'vue3-datepicker';
-  import 'vue3-datepicker/index.css';
+  import DatePicker from 'vue3-datepicker-next';
+  import 'vue3-datepicker-next/index.css';
 
   export default {
     components: { DatePicker },
@@ -66,7 +66,7 @@ $namespace: 'xmx'; // change the 'mx' to 'xmx'. then <date-picker prefix-class="
 $default-color: #555;
 $primary-color: #1284e7;
 
-@import '~vue3-datepicker/scss/index.scss';
+@import '~vue3-datepicker-next/scss/index.scss';
 ```
 
 ## Internationalization
@@ -76,14 +76,14 @@ you can import a locale file.
 Once you import a locale, it becomes the active locale.
 
 ```js
-import DatePicker from 'vue3-datepicker';
-import 'vue3-datepicker/index.css';
+import DatePicker from 'vue3-datepicker-next';
+import 'vue3-datepicker-next/index.css';
 
-import 'vue3-datepicker/locale/zh-cn';
+import 'vue3-datepicker-next/locale/zh-cn';
 ```
 
 You can also override some of the default locale by `lang`.
-[Full config](https://github.com/sitronik/vue3-datepicker/blob/main/locale/en.es.js)
+[Full config](https://github.com/sitronik/vue3-datepicker-next/blob/main/locale/en.es.js)
 
 ```html
 <script>
@@ -291,7 +291,7 @@ Set fixed time list to select;
 | confirm         | When click 'confirm' button                                                            | date                                                   |
 | clear           | When click 'clear' button                                                              |                                                        |
 | input-error     | When user type a invalid Date                                                          | the input text                                         |
-| pick            | when select date [#429](https://github.com/sitronik/vue3-datepicker/issues/429) | date                                                   |
+| pick            | when select date [#429](https://github.com/sitronik/vue3-datepicker-next/issues/429) | date                                                   |
 | calendar-change | when change the calendar                                                               | date                                                   |
 | panel-change    | when the calendar panel changes                                                        | type('year'\|'month'\|'date'), oldType                 |
 
@@ -320,6 +320,6 @@ If you find this project useful, you can buy me a coffee
 
 ## License
 
-[MIT](https://github.com/sitronik/vue3-datepicker/blob/main/LICENSE)
+[MIT](https://github.com/sitronik/vue3-datepicker-next/blob/main/LICENSE)
 
 Copyright (c) 2021-present xiemengxiong

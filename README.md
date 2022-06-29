@@ -111,7 +111,7 @@ You can also override some of the default locale by `lang`.
 ### Props
 
 | Prop                | Description                                      | Type                                             | Default        |
-| ------------------- | ------------------------------------------------ | ------------------------------------------------ | -------------- |
+|---------------------|--------------------------------------------------| ------------------------------------------------ | -------------- |
 | type                | select the type of picker                        | date \|datetime\|year\|month\|time\|week         | 'date'         |
 | range               | if true, pick the range date                     | `boolean`                                        | false          |
 | format              | to set the date format. similar to moment.js     | [token](#token)                                  | 'YYYY-MM-DD'   |
@@ -155,6 +155,7 @@ You can also override some of the default locale by `lang`.
 | time-picker-options | set fixed time list to select                    | [time-picker-options](#time-picker-options)      | null           |
 | prefix-class        | set prefix class                                 | `string`                                         | 'mx'           |
 | scroll-duration     | set the duration of scroll when hour is selected | `number`                                         | 100            |
+| required            | if true, html 5 validation                       | `boolean`                                        | false          |
 
 ###
 

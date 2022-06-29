@@ -72,6 +72,7 @@ export default defineComponent({
       range
       :shortcuts="shortcuts"
       :editable="false"
+      :required="true"
     ></DatePicker>
   </div>
 </template>

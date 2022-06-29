@@ -1,5 +1,5 @@
 {
-  "name": "vue-datepicker-next",
+  "name": "vue3-datepicker",
   "version": "1.0.2",
   "description": "A Datepicker Component For Vue3",
   "main": "./index.js",
